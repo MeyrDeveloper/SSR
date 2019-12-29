@@ -9,6 +9,7 @@ module.exports = env => {
     console.log(env.MODE_LOCAL)
     console.log(env.MODE_PROD)
     console.log('environment finish')
+    
 
     return {
         entry: "./index-client.js",
